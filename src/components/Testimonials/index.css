@@ -1,0 +1,66 @@
+.testimonials-container{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin-bottom: 20px;
+}
+.testimonial-header{
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    color: rgb(182, 121, 199);
+    font-size: 20px;
+}
+.testimonils{
+    display: flex; 
+    flex-direction: column; 
+}
+
+@media screen  and (min-width:768px){
+    .testimonils{
+        flex-direction: row;
+    }
+}
+
+.testimonial-card{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 20px; 
+    border-radius: 8px; 
+    background-color: #fff; 
+    margin-bottom: 10px;
+    margin-right: 10px;
+    margin: 15px;
+    min-height: 150px;
+    max-width: 300px;
+}
+
+.testimonial-image{
+    width: 60px; 
+    border-radius: 50px;
+}
+
+.testimonial-name{
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    color: #000; 
+    font-size: 20px;
+}
+
+.rating-container{
+    display: flex; 
+    flex-direction: row;
+    padding: 2px;
+}
+
+.rating-star{
+    color: gold;
+}
+
+.testimonial-description{
+    font-family: "Roboto"; 
+    font-weight: 500; 
+    color: #716d6d; 
+    font-size: 16px;
+}

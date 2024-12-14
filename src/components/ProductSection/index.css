@@ -1,0 +1,46 @@
+.product-section-container {
+    display: flex; 
+    flex-direction: column;
+    min-height: 100vh;
+    margin-bottom: 20px;
+}
+
+.product-name {
+    text-align: center; 
+    font-family: "Roboto"; 
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(182, 121, 199);
+    margin-right: auto;
+}
+
+.products-list {
+    display: flex; 
+    flex-wrap: wrap; 
+    list-style-type: none;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+@media screen and (min-width: 768px) {
+    .products-list {
+        align-items: flex-start; /* Align to the top on larger devices */
+    }
+}
+
+.search-container {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input-element {
+    height: 35px; 
+   /* Adjust width as needed */
+    outline: none; 
+    cursor: pointer;
+    border: solid 2px rgb(108, 162, 238); 
+    border-radius: 5px;
+    margin-left: 10px; /* Optional: Space between input and other elements */
+}

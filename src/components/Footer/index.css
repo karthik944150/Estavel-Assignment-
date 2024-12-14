@@ -1,0 +1,32 @@
+.footer-section{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background-color: #000; 
+    width: 100%; 
+    height: 50vh;
+    color: #fff;
+}
+
+.link-item{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.icons{
+    display: flex; 
+    flex-direction: row; 
+    padding: 10px;
+}
+
+.under-line{
+    color: #fff;
+    width: 100%;
+}
+
+.copy-right-section{
+    justify-content: flex-end;
+    align-self: center;
+    color: #fff;
+}
